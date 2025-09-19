@@ -11,7 +11,7 @@ const {data: page} = await useAsyncData('index', () => queryCollection('index').
     <div class="hero-section-wrapper">
       <IndexHeroBackground/>
       <LazyStarsBg/>
-      <HeroFloatingSection
+      <FloatingHeroSection
         :title="page.title"
         :description="page.description"
         :links="page.hero.links"

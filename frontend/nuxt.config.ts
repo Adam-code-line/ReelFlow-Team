@@ -14,11 +14,4 @@ export default defineNuxtConfig({
   ui: {
     fonts: false
   },
-
-  components: {
-    dirs: [
-      '~/components',
-      '~/components/FloatingComponents'
-    ]
-  }
 })
